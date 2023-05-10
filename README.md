@@ -1,6 +1,6 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-## This page is been created to facilitate the search of weather when people try to get ready for whatever activities they plan for the day.
+This page is been created to facilitate the search of weather when people try to get ready for whatever activities they plan for the day.
 
 the weather is displayed using OpenWeatherMap API
 
