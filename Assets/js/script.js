@@ -21,14 +21,14 @@ $(document).ready(function () {
             $(".card-deck").empty();
 
             //gets the weather icon and appends it the page
-            let icon = response.current.weather[0].icon;
-            let iconImg = $("<img>");
+            var icon = response.current.weather[0].icon;
+            var iconImg = $("<img>");
             iconImg.addClass("img-fluid");
             iconImg.attr("src", "https://openweathermap.org/img/wn/" + icon + "@2x.png")
             $("#city").append(iconImg);
 
             //if statement to update the background color of the UV Index
-            let uvi = parseInt(response.current.uvi);
+            var uvi = parseInt(response.current.uvi);
             if (uvi <= 2) {
                 $(".color").css({ "background-color": "green", "color": "white" });
             } else if (uvi >= 3 && uvi <= 5) {
