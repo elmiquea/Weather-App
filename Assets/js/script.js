@@ -1,9 +1,9 @@
 $(document).ready(function () {
     //cityName to hold the user input
-    let cityName = "";
+    var cityName = "";
     //latitude and longitude are retrieved in first API and needed for second API call
-    let lat = "";
-    let lon = "";
+    var lat = "";
+    var lon = "";
 
     //function that gets the rest of the current weather and the daily weather
     function getWeatherOneAPI(a,b) {
